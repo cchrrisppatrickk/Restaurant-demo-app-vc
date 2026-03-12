@@ -29,3 +29,12 @@ Para ejecutar este proyecto en tu entorno local:
 2. Instalar las dependencias de Node:
    ```bash
    npm install
+2. Ejecutar el entorno de desarrollo de Tauri:
+   ```bash
+   npm run tauri dev
+   (Nota: Para compilar en entornos Linux, asegúrate de tener instaladas las dependencias de desarrollo de webkit2gtk4.1 y glib).
+   
+* **📦 Compilación (Producción)**
+Para generar los instaladores finales (.rpm, .AppImage, .exe):
+ ```bash
+   npm run tauri build
